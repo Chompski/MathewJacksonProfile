@@ -1,0 +1,392 @@
+
+@font-face {
+    font-family: 'ket';
+    src: url('Fonts/ketch___-webfont.woff2') format('woff2'),
+         url('Fonts/ketch___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-image: url("Images/background.png");
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+h1 {
+    margin: 0.5rem;
+    font-family: 'ket';
+}  
+
+h2 {
+    margin: 0.5rem;
+    font-family: 'ket';
+}
+
+h3 {
+    margin: 0.5rem;
+    font-family: 'ket';
+}
+p {
+    margin: 0.5rem;
+    padding: 1rem;
+    font-family: 'ket';
+}
+
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 4px solid #593c18;
+    border-radius: 20px;
+    background: #a8722d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#a8722d), to(#593c18));
+    background: -moz-linear-gradient(top, #a8722d, #593c18);
+    background: linear-gradient(to bottom, #a8722d, #593c18);
+    text-shadow: #35240e 1px 1px 1px;
+    font-family: 'ket';
+    color: #000000;
+    text-decoration: none;
+    box-shadow: 3px 6px;
+    margin: 0.5rem; 
+}
+.button:hover,
+.button:focus {
+    border: 4px solid ##69471c;
+    background: #ca8936;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ca8936), to(#6b481d));
+    background: -moz-linear-gradient(top, #ca8936, #6b481d);
+    background: linear-gradient(to bottom, #ca8936, #6b481d);
+    color: #000000;
+    text-decoration: none;
+}
+.button:active {
+    background: #593c18;
+    background: -webkit-gradient(linear, left top, left bottom, from(#593c18), to(#593c18));
+    background: -moz-linear-gradient(top, #593c18, #593c18);
+    background: linear-gradient(to bottom, #593c18, #593c18);
+}
+
+.button2 {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 4px solid #b90c0c;
+    border-radius: 20px;
+    background: #ffffff;
+    text-shadow: #000000 1px 1px 1px;
+    font-family: 'ket';
+    color: #000000;
+    text-decoration: none;
+    box-shadow: 3px 6px;
+    margin: 0.5rem;
+}
+.button2:hover,
+.button2:focus {
+    border: 4px solid #b90c0c;
+    background: #e6e0d8;
+    color: #000000;
+    text-decoration: none;
+}
+.button2:active {
+    background: #593c18;
+    background: -webkit-gradient(linear, left top, left bottom, from(#593c18), to(#593c18));
+    background: -moz-linear-gradient(top, #593c18, #593c18);
+    background: linear-gradient(to bottom, #593c18, #593c18);
+}
+
+.Intro {
+    margin: 1.5rem;
+}
+
+.Intro-Text {
+    color: black;
+    padding: 2px;
+    font-size: 2rem;
+    border-radius: 20px;
+    border: 0.3rem;
+    border-style:groove;
+    border-color: black;
+    box-shadow: 5px 10px;
+    background-image: url("Images/BG2.png");
+    text-align: center;
+}
+
+.Intro-Logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Intro-Logos2 {
+    width: 100%;
+    max-width: 30%;
+}
+
+.Banner-Image {
+    width: 100%;
+    max-width: 80%;
+}
+
+.links {
+    width: 100%;
+    max-width: 60%;
+    margin: 0.5rem;
+}
+
+.LinkList {
+    display: flex;
+    flex-direction: row;
+    /* max-width: 15rem; */
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.infopic {
+    width: 100%;
+    max-width: 65%;
+    border: 3%;
+    margin: 2%;
+    border-style:solid;
+    border-color: black;
+}
+
+.infopic2 {
+    width: 100%;
+    max-width: 20%;
+    border: 0.2rem;
+    margin: 2%;
+}
+
+.infopicNC {
+    width: 100%;
+    max-width: 65%;
+    border: 0.3rem;
+    margin: 2%;
+    border-style:solid;
+    border-color: rgb(192, 21, 21);
+}
+
+.Front-End-Div {
+    min-width: 100%;
+}
+
+.Front-End-Banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 20px;
+    border: 0.3rem;
+    border-style:groove;
+    border-color: black;
+    box-shadow: 5px 10px;
+    background-image: url("Images/BG2.png");
+}
+
+.Front-End-Banner-Title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Ant-Banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 20px;
+    border: 0.3rem;
+    border-style:groove;
+    border-color: black;
+    box-shadow: 5px 10px;
+    background-image: url("Images/background2.png");
+}
+
+.Ant-Banner-Title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.antDiv {
+    display: flex;
+    flex-direction: row;
+    display: none;
+    background-image: url("Images/background2.png");
+    align-items: center;
+    justify-content: center;
+}
+
+.Ant-Desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    margin-top: -0.5rem;
+    padding: 1%;
+    border-radius: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.NC-Banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:black;
+    margin: 1rem;
+    border-radius: 20px;
+    border: 0.3rem;
+    border-style:groove;
+    border-color: black;
+    box-shadow: 5px 10px;
+}
+
+.NC-Banner-Title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.NCDiv {
+    display: none;
+    background-color:black;
+}
+
+.NC-Desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin: 0.5rem;
+    margin-top: -0.8rem;
+    padding: 1%;
+    border-radius: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+canvas {
+    width: 97%;
+    margin: 1rem;
+  }
+
+  @media screen and (max-width: 600px){
+    body {
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+
+    canvas {
+        display: none;
+      }
+
+    .links {
+        margin: 0.4rem;
+        max-width: 60%;
+    }
+
+    .Intro-Text {
+        font-size: 1.2rem;
+
+    }
+
+    .Intro-Logos2 {
+        max-width: 60%;
+        margin: 0rem;
+    }
+    
+    .Ant-Desc {
+        font-size: 1rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .NC-Desc {
+        font-size: 1rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .infopic {
+        width: 100%;
+    }
+
+    .infopic2 {
+        width: 100%;
+    }
+
+    .infopicNC {
+        width: 100%;
+    } 
+
+    .Ant-Desc-Inner {
+        flex-direction: column;
+    }
+   
+    p {
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+  }
+
+  @media only screen and (max-width: 800px) and (min-width:601px){ 
+
+    .links {
+        margin: 0.4rem;
+        max-width: 60%;
+    }
+
+    .Intro-Text {
+        font-size: 1.2rem;
+
+    }
+
+    .Intro-Logos2 {
+        max-width: 40%;
+        margin: 0rem;
+    }
+   
+    .Ant-Desc {
+        font-size: 1.8rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .NC-Desc {
+        font-size: 1.8rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .Ant-Desc-Inner {
+        flex-direction: column;
+    }
+
+    body {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+  }
