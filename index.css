@@ -170,7 +170,7 @@ p {
 
 .infopicNC {
     width: 100%;
-    max-width: 65%;
+    max-width: 75%;
     border: 0.3rem;
     margin: 2%;
     border-style:solid;
@@ -251,6 +251,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color:black;
     margin: 1rem;
     border-radius: 20px;
