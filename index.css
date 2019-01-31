@@ -130,7 +130,7 @@ p {
 
 .Banner-Image {
     width: 100%;
-    max-width: 80%;
+    /* max-width: 90%; */
 }
 
 .links {
@@ -281,7 +281,7 @@ p {
     color: white;
     background-color: rgb(0, 0, 0);
     margin: 0.5rem;
-    margin-top: -0.8rem;
+    margin-top: -0.5rem;
     padding: 1%;
     border-radius: 20px;
     font-size: 2rem;
