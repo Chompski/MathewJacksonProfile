@@ -176,8 +176,14 @@ p {
 }
 
 .main {
- margin-left: -7rem;
+ 
+ /* margin-left: -8%; */
 }
+
+canvas {
+    width: 97%;
+    margin: 0rem;
+  }
 
 .infopic {
     width: 100%;
@@ -309,9 +315,9 @@ p {
         padding-right: 0.2rem;
     }
 
-    canvas {
+    /* canvas {
         display: none;
-      }
+      } */
 
     .links {
         margin: 0.4rem;
