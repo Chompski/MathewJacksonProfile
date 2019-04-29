@@ -10,94 +10,103 @@
   <script src="js/phaser.js"></script>
   <script src="js/game.js"></script>
 
+  <!-- Links -->
+  <ul>
+    <li><a href="https://www.linkedin.com/in/mathew-jackson-b051a016b/">LinkedIn</a></li>
+    <li><a href="https://github.com/Chompski">Github</a></li>
+    <li><a href="https://twitter.com/Ze_Chompski">Twitter</a></li>
+  </ul>
+
+  <!-- Intro Panel -->
   <div class="Intro">
-
     <div class="Intro-Text">
-
-      <!-- <h2>Front-End Development & Design</h2> -->
       <img src="Images/frontend.png" class="Banner-Image" />
       <h3>Im mathew jackson a javascript developer who is creative, passionate and eager to learn. </h3>
-      <div class="Intro-Logos">
-        <div class="LinkList" align="center">
-          <a href="https://www.linkedin.com/in/mathew-jackson-b051a016b/" target="_blank">
-            <img src="Images/linkedin-button-logo.png" class="links" />
-          </a>
-        </div>
-        <img src="Images/Logos.png" class="Intro-Logos2" />
-        <a href="https://github.com/Chompski" target="_blank">
-          <img src="Images/github.png" class="links" />
-        </a>
+      <div>
+        <img src="Images/Logos.png" class="Intro-Logos" />
       </div>
     </div>
   </div>
 </head>
+<div class="main">
+    <div id="phaser"></div>
+  </div>
+<!-- Archive Panel -->
 
 <body>
-  <div class="main">
-    <div id="phaser"></div>
-    <a href='games/Slots/index.html'>Slots</a>
+  <div class="Front-End-Banner">
+    <div class="Front-End-Banner-Title">
+      <img src="Images/webdev.png" class="Banner-Image" />
+    </div>
+
+    <!-- Banner Scroll Button Ants-->
+    <div onclick="hide('antDiv')">
+      <div class="Scroll-Banner-Title">
+        <img src="Images/AntTitle.png" class="Scroll-Banner-Image" />
+      </div>
+    </div>
+    <!-- Info display -->
+    <div class="ScrollDiv" id="antDiv" style="display:none" onclick="hide('antDiv')">
+      <div class="Scroll-Desc">
+        <p>Antdentifier is a personal full-stack project I created, it is an application for hobbyist ant keepers,
+          the
+          main goal for the application is to help users identify and care for a multitude of ant species. The
+          application achieves this by using a process of elimination, users can input their own criteria and break
+          down the database on the backend to find the closest match for the criteria given.</p>
+        <img src="Images/antdentifierex.png" class="infopic" />
+        <div class="Ant-Desc-Inner">
+          <p>The application was created using node.js, react and runs mongoDB for its back end.
+
+            The project has been made fully responsive as a big part of the application was for it to be fully
+            mobile,
+            as such it will run smoothly on any phone and tablet.</p>
+          <img src="assets/AntPhone.png" class="infopic2" />
+        </div>
+        <a class="button" href="https://antdentifier-frontend.herokuapp.com/" target="_blank">View Site</a>
+      </div>
+      <img src="Images/scrolltop.png" />
+    </div>
+
+
+    <!-- Banner Scroll Button NC-->
+    <div onclick="hide('NCDiv')">
+      <div class="Scroll-Banner-Title">
+        <img src="Images/Ncnews.png" class="Scroll-Banner-Image" />
+      </div>
+
+      <!-- Info display -->
+      <div class="ScrollDiv" id="NCDiv" style="display:none">
+        <div class="Scroll-Desc">
+          <p>Northcoders news is a discussion based web-app that allows users to sign up and contribute content, it
+            is
+            easy to navigate and covers a range of user based topics.
+            Users are able to post, update and delete articles in which other members could rate up or down and even
+            add
+            comments to a post.
+
+            The application was created using node.js and react for its front-end, the back-end consists of several
+            end
+            points created using a mongoDB database.</p>
+          <img src="Images/NCPage.png" class="infopic" />
+          <a class="button2" href="https://northcoders-frontend.herokuapp.com/" target="_blank">View Site</a>
+        </div>
+        <img src="Images/scrolltop.png" />
+      </div>
+    </div>
   </div>
 
-  <div class="Front-End-Banner" onclick="hide('Front-End-Div')">
-    <div class="Front-End-Banner-Title">
-     <!-- <h1>Web development projects</h1> -->
-     <img src="Images/webdev.png" class="Banner-Image" />
-    </div>
-    <div class="Front-End-Div" id="Front-End-Div">
-
-      <!-- Banner Button-->
-      <div class="Ant-Banner" onclick="hide('antDiv')">
-        <div class="Ant-Banner-Title">
-          <img src="Images/AntTitle.png" class="Banner-Image" />
-        </div>
-        <!-- Info display -->
-        <div class="antDiv" id="antDiv" style="display:none">
-          <div class="Ant-Desc">
-            <p>Antdentifier is a personal full-stack project I created, it is an application for hobbyist ant keepers,
-              the
-              main goal for the application is to help users identify and care for a multitude of ant species. The
-              application achieves this by using a process of elimination, users can input their own criteria and break
-              down the database on the backend to find the closest match for the criteria given.</p>
-            <img src="Images/antdentifierex.png" class="infopic" />
-            <div class="Ant-Desc-Inner">
-              <p>The application was created using node.js, react and runs mongoDB for its back end.
-
-                The project has been made fully responsive as a big part of the application was for it to be fully
-                mobile,
-                as such it will run smoothly on any phone and tablet.</p>
-              <img src="assets/AntPhone.png" class="infopic2" />
-            </div>
-            <a class="button" href="https://antdentifier-frontend.herokuapp.com/" target="_blank">View Site</a>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- Banner Button-->
-      <div class="NC-Banner" onclick="hide('NCDiv')">
-        <div class="NC-Banner-Title">
-          <img src="Images/Ncnews.png" class="Banner-Image" />
-        </div>
-
-        <!-- Info display -->
-        <div class="NCDiv" id="NCDiv" style="display:none">
-          <div class="NC-Desc">
-            <p>Northcoders news is a discussion based web-app that allows users to sign up and contribute content, it
-              is
-              easy to navigate and covers a range of user based topics.
-              Users are able to post, update and delete articles in which other members could rate up or down and even
-              add
-              comments to a post.
-
-              The application was created using node.js and react for its front-end, the back-end consists of several
-              end
-              points created using a mongoDB database.</p>
-            <img src="Images/NCPage.png" class="infopicNC" />
-            <a class="button2" href="https://northcoders-frontend.herokuapp.com/" target="_blank">View Site</a>
-          </div>
-        </div>
+  <!-- About Me Panel -->
+  <div class="About">
+    <div class="About-Text">
+      <img src="Images/aboutme.png" class="Banner-Image" />
+      <h3>Im mathew jackson a javascript developer who is creative, passionate and eager to learn. </h3>
+      <div class="About-Image">
+        <img src="Images/me.png" />
       </div>
     </div>
+  </div>
+
+
   </div>
 </body>
 

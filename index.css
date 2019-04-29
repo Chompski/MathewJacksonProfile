@@ -7,9 +7,40 @@
     font-style: normal;
 }
 
+ul {
+    list-style-type: none;
+     margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 0.3rem;
+    border-style:outset;
+    border-color: goldenrod;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 0.5rem;
+  font-family: 'ket';
+}
+
+li a:hover {
+  background-color: rgb(71, 71, 71);
+}
 
 body {
-    background-image: url("Images/background.png");
+    background-image:linear-gradient(rgb(93, 6, 6),black);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-left: 8rem;
     padding-right: 8rem;
 }
@@ -53,6 +84,7 @@ p {
     box-shadow: 3px 6px;
     margin: 0.5rem; 
 }
+
 .button:hover,
 .button:focus {
     border: 4px solid ##69471c;
@@ -63,6 +95,7 @@ p {
     color: #000000;
     text-decoration: none;
 }
+
 .button:active {
     background: #593c18;
     background: -webkit-gradient(linear, left top, left bottom, from(#593c18), to(#593c18));
@@ -104,32 +137,29 @@ p {
 }
 
 .Intro-Text {
-    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
     padding: 2px;
     font-size: 2rem;
     border-radius: 20px;
     border: 0.3rem;
-    border-style:groove;
-    border-color: black;
-    box-shadow: 5px 10px;
-    background-image: url("Images/BG2.png");
+    border-style:outset;
+    border-color: goldenrod;
+    /* box-shadow: 5px 10px; */
+    /* background-image: url("Images/BG2.png"); */
+    background-color: #000000;
     text-align: center;
 }
 
 .Intro-Logos {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.Intro-Logos2 {
-    width: 100%;
-    max-width: 30%;
+    width:30%;
 }
 
 .Banner-Image {
-    width: 100%;
+    width: 30%;
     /* max-width: 90%; */
 }
 
@@ -146,10 +176,7 @@ p {
 }
 
 .main {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+ margin-left: -7rem;
 }
 
 .infopic {
@@ -182,17 +209,24 @@ p {
 }
 
 .Front-End-Banner {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     justify-content: center;
     align-items: center;
-    margin: 1rem;
+    border-radius: 20px;
+    border: 0.3rem;
+    border-style:outset;
+    border-color: goldenrod;
+    background-image: url("Images/books.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin: 1rem;
     border-radius: 20px;
     border: 0.3rem;
     border-style:groove;
     border-color: black;
     box-shadow: 5px 10px;
-    background-image: url("Images/BG2.png");
+    background-image: url("Images/BG2.png"); */
 }
 
 .Front-End-Banner-Title {
@@ -200,98 +234,74 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin: 1rem;
     
 }
 
-.Ant-Banner {
+.Scroll-Banner-Title {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url("Images/scrolltop.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
     margin: 1rem;
-    border-radius: 20px;
-    border: 0.3rem;
-    border-style:groove;
-    border-color: black;
-    box-shadow: 5px 10px;
-    background-image: url("Images/background2.png");
 }
 
-.Ant-Banner-Title {
+.Scroll-Banner-Image {
+    margin: 0;
+    width: 15%;
+    max-width: 50%;
+}
+
+.ScrollDiv {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.antDiv {
-    display: flex;
-    flex-direction: row;
-    display: none;
-    background-image: url("Images/background2.png");
-    align-items: center;
-    justify-content: center;
-}
-
-.Ant-Desc {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0.5rem;
-    margin-top: -0.5rem;
-    padding: 1%;
-    border-radius: 20px;
-    font-size: 2rem;
+    display: none; 
+     align-items: center;
+    justify-content: center; 
     text-align: center;
 }
 
+.Scroll-Desc {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("Images/scrollbody.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 80%;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -1rem;
+}
 
-.NC-Banner {
+.About {
+    margin: 1.5rem;
+}
+
+.About-Text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color:black;
-    margin: 1rem;
+    justify-content: center;
+    color: #ffffff;
+    padding: 2px;
+    font-size: 2rem;
     border-radius: 20px;
     border: 0.3rem;
-    border-style:groove;
-    border-color: black;
-    box-shadow: 5px 10px;
-}
-
-.NC-Banner-Title {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.NCDiv {
-    display: none;
-    background-color:black;
-}
-
-.NC-Desc {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background-color: rgb(0, 0, 0);
-    margin: 0.5rem;
-    margin-top: -0.5rem;
-    padding: 1%;
-    border-radius: 20px;
-    font-size: 2rem;
+    border-style:outset;
+    border-color: goldenrod;
+    background-color: #000000;
     text-align: center;
 }
 
-canvas {
-    width: 97%;
-    margin: 1rem;
-  }
+.About-Image {
+    width: 100%;
+    max-width: 30%;
+}
+
 
   @media screen and (max-width: 600px){
     body {
