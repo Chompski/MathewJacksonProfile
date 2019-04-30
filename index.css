@@ -66,73 +66,6 @@ p {
     font-family: 'ket';
 }
 
-
-.button {
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    padding: 12px 24px;
-    border: 4px solid #593c18;
-    border-radius: 20px;
-    background: #a8722d;
-    background: -webkit-gradient(linear, left top, left bottom, from(#a8722d), to(#593c18));
-    background: -moz-linear-gradient(top, #a8722d, #593c18);
-    background: linear-gradient(to bottom, #a8722d, #593c18);
-    text-shadow: #35240e 1px 1px 1px;
-    font-family: 'ket';
-    color: #000000;
-    text-decoration: none;
-    box-shadow: 3px 6px;
-    margin: 0.5rem; 
-}
-
-.button:hover,
-.button:focus {
-    border: 4px solid ##69471c;
-    background: #ca8936;
-    background: -webkit-gradient(linear, left top, left bottom, from(#ca8936), to(#6b481d));
-    background: -moz-linear-gradient(top, #ca8936, #6b481d);
-    background: linear-gradient(to bottom, #ca8936, #6b481d);
-    color: #000000;
-    text-decoration: none;
-}
-
-.button:active {
-    background: #593c18;
-    background: -webkit-gradient(linear, left top, left bottom, from(#593c18), to(#593c18));
-    background: -moz-linear-gradient(top, #593c18, #593c18);
-    background: linear-gradient(to bottom, #593c18, #593c18);
-}
-
-.button2 {
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    padding: 12px 24px;
-    border: 4px solid #b90c0c;
-    border-radius: 20px;
-    background: #ffffff;
-    text-shadow: #000000 1px 1px 1px;
-    font-family: 'ket';
-    color: #000000;
-    text-decoration: none;
-    box-shadow: 3px 6px;
-    margin: 0.5rem;
-}
-.button2:hover,
-.button2:focus {
-    border: 4px solid #b90c0c;
-    background: #e6e0d8;
-    color: #000000;
-    text-decoration: none;
-}
-.button2:active {
-    background: #593c18;
-    background: -webkit-gradient(linear, left top, left bottom, from(#593c18), to(#593c18));
-    background: -moz-linear-gradient(top, #593c18, #593c18);
-    background: linear-gradient(to bottom, #593c18, #593c18);
-}
-
 .Intro {
     margin: 1.5rem;
 }
@@ -149,8 +82,6 @@ p {
     border: 0.3rem;
     border-style:outset;
     border-color: goldenrod;
-    /* box-shadow: 5px 10px; */
-    /* background-image: url("Images/BG2.png"); */
     background-color: #000000;
     text-align: center;
 }
@@ -172,7 +103,6 @@ p {
 .LinkList {
     display: flex;
     flex-direction: row;
-    /* max-width: 15rem; */
 }
 
 .main {
@@ -289,7 +219,7 @@ canvas {
 }
 
 .waxLink {
-    width: 60%;
+    width: 40%;
 }
 
 .About {
@@ -332,6 +262,10 @@ canvas {
     /* canvas {
         display: none;
       } */
+
+    .waxLink {
+        width: 30%;
+    }
 
     .links {
         margin: 0.4rem;
