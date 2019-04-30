@@ -82,7 +82,7 @@ p {
     border: 0.3rem;
     border-style:outset;
     border-color: goldenrod;
-    background-color: #000000;
+    background-image:linear-gradient(to top left,rgb(93, 6, 6),black);
     text-align: center;
 }
 
@@ -238,7 +238,7 @@ canvas {
     border: 0.3rem;
     border-style:outset;
     border-color: goldenrod;
-    background-color: #000000;
+    background-image:linear-gradient(to top right,rgb(93, 6, 6),black);
     text-align: center;
     margin: 3rem;
 }
