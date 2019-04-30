@@ -41,8 +41,9 @@ body {
     background-image:linear-gradient(rgb(93, 6, 6),black);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+
 }
 
 h1 {
@@ -160,7 +161,6 @@ p {
 
 .Banner-Image {
     width: 30%;
-    /* max-width: 90%; */
 }
 
 .links {
@@ -176,12 +176,11 @@ p {
 }
 
 .main {
- 
- /* margin-left: -8%; */
+
 }
 
 canvas {
-    width: 97%;
+    width: 100%;
     margin: 0rem;
   }
 
@@ -215,8 +214,6 @@ canvas {
 }
 
 .Front-End-Banner {
-    /* display: flex;
-    flex-direction: column; */
     justify-content: center;
     align-items: center;
     border-radius: 20px;
@@ -226,13 +223,6 @@ canvas {
     background-image: url("Images/books.png");
     background-repeat: no-repeat;
     background-size: cover;
-    /* margin: 1rem;
-    border-radius: 20px;
-    border: 0.3rem;
-    border-style:groove;
-    border-color: black;
-    box-shadow: 5px 10px;
-    background-image: url("Images/BG2.png"); */
 }
 
 .Front-End-Banner-Title {
@@ -240,8 +230,7 @@ canvas {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 1rem;
-    
+    margin: 1rem;  
 }
 
 .Scroll-Banner-Title {
@@ -260,6 +249,16 @@ canvas {
     max-width: 50%;
 }
 
+.Scroll-Banner-Image2 {
+    margin: 0;
+    width: 22%;
+    max-width: 50%;
+}
+
+.ScrollBot {
+    width: 100%;
+}
+
 .ScrollDiv {
     display: flex;
     flex-direction: row;
@@ -271,7 +270,6 @@ canvas {
 
 .Scroll-Desc {
     display: inline-block;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-image: url("Images/scrollbody.png");
@@ -281,6 +279,17 @@ canvas {
     font-size: 2rem;
     text-align: center;
     margin-top: -1rem;
+}
+
+.Scroll-Desc-Inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.waxLink {
+    width: 60%;
 }
 
 .About {
@@ -301,11 +310,16 @@ canvas {
     border-color: goldenrod;
     background-color: #000000;
     text-align: center;
+    margin: 3rem;
 }
 
 .About-Image {
     width: 100%;
-    max-width: 30%;
+    max-width: 60%;
+    border-radius: 50px;
+    border: 0.3rem;
+    border-style:outset;
+    border-color: goldenrod;
 }
 
 
@@ -334,16 +348,8 @@ canvas {
         margin: 0rem;
     }
     
-    .Ant-Desc {
+    .Scroll-Desc {
         font-size: 1rem;
-        margin: 0.5rem;
-        padding: 0.5rem;
-    }
-
-    .NC-Desc {
-        font-size: 1rem;
-        margin: 0.5rem;
-        padding: 0.5rem;
     }
 
     .infopic {
