@@ -7,27 +7,36 @@
     font-style: normal;
 }
 
+.link-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
      margin: 0;
     padding: 0;
+    width: 40%;
     overflow: hidden;
     background-color: rgb(0, 0, 0);
+    background-size: cover;
     border-radius: 20px;
     border: 0.3rem;
     border-style:outset;
     border-color: goldenrod;
 }
 
-li {
-  float: left;
-}
-
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 5px 5px;
   text-decoration: none;
   margin: 0.5rem;
   font-family: 'ket';
@@ -41,9 +50,8 @@ body {
     background-image:linear-gradient(rgb(93, 6, 6),black);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 10rem;
-    padding-right: 10rem;
-
+    padding-left: 12rem;
+    padding-right: 12rem;
 }
 
 h1 {
@@ -60,6 +68,7 @@ h3 {
     margin: 0.5rem;
     font-family: 'ket';
 }
+
 p {
     margin: 0.5rem;
     padding: 1rem;
@@ -91,8 +100,15 @@ p {
 }
 
 .Banner-Image {
-    width: 30%;
+    width: 40%;
+    margin: 1rem;
 }
+
+.Banner-Image-2 {
+    width: 25%;
+    margin: 0.5rem;
+}
+
 
 .links {
     width: 100%;
@@ -101,12 +117,7 @@ p {
 }
 
 .LinkList {
-    display: flex;
-    flex-direction: row;
-}
-
-.main {
-
+    width: 30%;
 }
 
 canvas {
@@ -153,6 +164,7 @@ canvas {
     background-image: url("Images/books.png");
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 1rem;
 }
 
 .Front-End-Banner-Title {
@@ -167,7 +179,7 @@ canvas {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("Images/scrolltop.png");
+    background-image: url("Images/Scrolltop2.png");
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 1rem;
@@ -175,13 +187,13 @@ canvas {
 
 .Scroll-Banner-Image {
     margin: 0;
-    width: 15%;
+    width: 25%;
     max-width: 50%;
 }
 
 .Scroll-Banner-Image2 {
     margin: 0;
-    width: 22%;
+    width: 35%;
     max-width: 50%;
 }
 
@@ -205,7 +217,7 @@ canvas {
     background-image: url("Images/scrollbody.png");
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 80%;
+    max-width: 78%;
     font-size: 2rem;
     text-align: center;
     margin-top: -1rem;
@@ -240,7 +252,6 @@ canvas {
     border-color: goldenrod;
     background-image:linear-gradient(to top right,rgb(93, 6, 6),black);
     text-align: center;
-    margin: 3rem;
 }
 
 .About-Image {
@@ -263,18 +274,31 @@ canvas {
         display: none;
       } */
 
+    .Scroll-Banner-Title {
+        width: 100%;
+        margin-left: 1%;
+      }
+
+    .Banner-Image {
+        width: 60%;
+        margin:2%;
+    }
+
+    .Banner-Image-2 {
+        width: 50%;
+        margin:2%;
+    }
+
     .waxLink {
         width: 30%;
     }
 
-    .links {
-        margin: 0.4rem;
-        max-width: 60%;
+    .LinkList {  
+        width: 100%;
     }
 
-    .Intro-Text {
-        font-size: 1.2rem;
-
+   h3 {
+        font-size: 1rem;
     }
 
     .Intro-Logos2 {
@@ -306,14 +330,16 @@ canvas {
         margin: 0.5rem;
         padding: 0.5rem;
     }
+}
 
+    .About-Text {
+        margin: 0%;
   }
 
   @media only screen and (max-width: 800px) and (min-width:601px){ 
 
-    .links {
-        margin: 0.4rem;
-        max-width: 60%;
+    .LinkList {  
+        width: 60%;
     }
 
     .Intro-Text {
@@ -326,13 +352,7 @@ canvas {
         margin: 0rem;
     }
    
-    .Ant-Desc {
-        font-size: 1.8rem;
-        margin: 0.5rem;
-        padding: 0.5rem;
-    }
-
-    .NC-Desc {
+    .Scroll-Desc {
         font-size: 1.8rem;
         margin: 0.5rem;
         padding: 0.5rem;
@@ -343,7 +363,11 @@ canvas {
     }
 
     body {
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    h3 {
+        font-size: 2rem;
     }
   }

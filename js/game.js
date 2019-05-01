@@ -35,8 +35,8 @@ gameScene.create = function () {
         repeat: -1,
     });
 
-    this.fire = this.add.sprite(this.sys.game.config.width / 2, this.sys.game.config.height / 2, 'fire', 0).setScale(3);
-    this.eye = this.add.sprite(this.sys.game.config.width / 2, this.sys.game.config.height / 2, 'eye', 0).setScale(3);
+    this.fire = this.add.sprite(this.sys.game.config.width / 2, this.sys.game.config.height / 2, 'fire', 0).setScale(4);
+    this.eye = this.add.sprite(this.sys.game.config.width / 2, this.sys.game.config.height / 2, 'eye', 0).setScale(4);
 
     this.fire.anims.play('burn');
 
