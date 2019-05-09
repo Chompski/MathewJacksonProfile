@@ -86,7 +86,7 @@ p {
     justify-content: center;
     color: #ffffff;
     padding: 2px;
-    font-size: 2rem;
+    font-size: 1.8rem;
     border-radius: 20px;
     border: 0.3rem;
     border-style:outset;
@@ -218,7 +218,7 @@ canvas {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 78%;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
     margin-top: -1rem;
 }
@@ -245,7 +245,7 @@ canvas {
     justify-content: center;
     color: #ffffff;
     padding: 2px;
-    font-size: 2rem;
+    font-size: 1.8rem;
     border-radius: 20px;
     border: 0.3rem;
     border-style:outset;
