@@ -9,151 +9,62 @@
   <script src="js/hide.js"></script>
   <script src="js/phaser.js"></script>
   <script src="js/game.js"></script>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140323896-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-140323896-1');
-  </script>
-
-
-
-  <!-- Links -->
-  <div class="link-cont">
-    <ul>
-      <li><a href="https://www.linkedin.com/in/mathew-jackson-b051a016b/"><img src="Images/in.png"
-            class="LinkList" /></a></li>
-      <li><a href="https://github.com/Chompski"><img src="Images/git.png" class="LinkList" /></a></li>
-      <li><a href="https://twitter.com/Ze_Chompski"><img src="Images/twitter.png" class="LinkList" /></a></li>
-    </ul>
-  </div>
-
-  <!-- Intro Panel -->
-  <div class="Intro">
-    <div class="Intro-Text">
-      <img src="Images/frontend.png" class="Banner-Image" />
-      <h3>Im mathew jackson a javascript developer who is creative, passionate and eager to learn. </h3>
-      <div>
-        <img src="Images/Logos.png" class="Intro-Logos" />
-      </div>
-    </div>
-  </div>
+  <!-- Import bootstrap and jquery --->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 
-<div class="main">
-  <div id="phaser"></div>
-</div>
-
-<!-- Archive Panel -->
-
 <body>
-  <div class="Front-End-Banner">
-    <div class="Front-End-Banner-Title">
-      <img src="Images/webdev.png" class="Banner-Image-2" />
+  <div id="main" class="container-fluid text-white layer">
+  <!-- Links -->
+  <div class="row">
+
+      <div class="col-4">
+        <a href="https://www.linkedin.com/in/mathew-jackson-b051a016b/"><img src="Images/in.png"
+              class="LinkList mx-auto d-block img-fluid" /></a></li>
+            </div>
+      <div class="col-4">
+      <a href="https://github.com/Chompski"><img src="Images/git.png" class="LinkList mx-auto d-block img-fluid" /></a></li>
+            </div>
+      <div class="col-4">
+      <a href="https://twitter.com/Ze_Chompski"><img src="Images/twitter.png" class="LinkList mx-auto d-block img-fluid" /></a></li>
+            </div>
+  </div>
+
+
+  <!-- Intro Panel -->
+  <div class="row">
+    <div class="col-1">
     </div>
+    <div class="about text-center col-10">
+      <h1 class="title"> Mathew Jackson </h1>
 
-
-    <!-- Banner Scroll Button SLOTS-->
-    <div onclick="hide('SlotDiv')">
-      <div class="Scroll-Banner-Title">
-        <img src="Images/CanvasSlots.png" class="Scroll-Banner-Image2" />
+      <div class="main">
+        <div id="phaser"></div>
       </div>
+      <p>Im mathew jackson a full stack web developer who is creative, passionate and eager to learn. </p>
+      <img src="Images/Logos.png" class="mx-auto d-block img-fluid" width="200px"/>
 
-      <!-- Info display -->
-      <div class="ScrollDiv" id="SlotDiv" style="display:none">
-        <div class="Scroll-Desc">
-          <div class="Scroll-Desc-Inner">
-            <p>Gold country is a html canvas game created using a simple html page and written entirely in javascript
-              using the phaser 3 frameworks,
-              the reels were made using sprite images and the gameplay mechanics created using functional programming.
-            </p>
-            <img src="Images/GC.png" class="infopic" />
-            <a href="games/Slots/index.html" target="_blank"><img src="Images/wax.png" class="waxLink" /></a>
-          </div>
-        </div>
-        <img src="Images/Scrolltop2.png" class="ScrollBot" />
-      </div>
     </div>
-
-
-
-    <!-- Banner Scroll Button Ants-->
-    <div onclick="hide('antDiv')">
-      <div class="Scroll-Banner-Title">
-        <img src="Images/AntTitle.png" class="Scroll-Banner-Image" />
-      </div>
-    </div>
-    <!-- Info display -->
-    <div class="ScrollDiv" id="antDiv" style="display:none" onclick="hide('antDiv')">
-      <div class="Scroll-Desc">
-        <p>Antdentifier is a personal full-stack project I created, it is an application for hobbyist ant keepers,
-          the
-          main goal for the application is to help users identify and care for a multitude of ant species. The
-          application achieves this by using a process of elimination, users can input their own criteria and break
-          down the database on the backend to find the closest match for the criteria given.</p>
-        <img src="Images/antdentifierex.png" class="infopic" />
-        <div class="Ant-Desc-Inner">
-          <p>The application was created using node.js, react and runs mongoDB for its back end.
-
-            The project has been made fully responsive as a big part of the application was for it to be fully
-            mobile,
-            as such it will run smoothly on any phone and tablet.</p>
-          <img src="assets/AntPhone.png" class="infopic2" />
-        </div>
-        <div class="Scroll-Desc-Inner">
-          <a href="https://antdentifier-frontend.herokuapp.com/" target="_blank"><img src="Images/wax2.png"
-              class="waxLink" /></a>
-        </div>
-      </div>
-      <img src="Images/Scrolltop2.png" class="ScrollBot" />
-    </div>
-
-
-    <!-- Banner Scroll Button NC-->
-    <div onclick="hide('NCDiv')">
-      <div class="Scroll-Banner-Title">
-        <img src="Images/Ncnews.png" class="Scroll-Banner-Image2" />
-      </div>
-
-      <!-- Info display -->
-      <div class="ScrollDiv" id="NCDiv" style="display:none">
-        <div class="Scroll-Desc">
-          <div class="Scroll-Desc-Inner">
-            <p>Northcoders news is a discussion based web-app that allows users to sign up and contribute content, it
-              is
-              easy to navigate and covers a range of user based topics.
-              Users are able to post, update and delete articles in which other members could rate up or down and even
-              add
-              comments to a post.
-
-              The application was created using node.js and react for its front-end, the back-end consists of several
-              end
-              points created using a mongoDB database.</p>
-            <img src="Images/NCPage.png" class="infopic" />
-            <a href="https://northcoders-frontend.herokuapp.com/" target="_blank"><img src="Images/wax2.png"
-                class="waxLink" /></a>
-          </div>
-        </div>
-        <img src="Images/Scrolltop2.png" class="ScrollBot" />
-      </div>
-    </div>
-
   </div>
 
   <!-- About Me Panel -->
-  <div class="About">
-    <div class="About-Text">
-      <img src="Images/aboutme.png" class="Banner-Image-2" />
-      <div>
-        <img src="Images/me.png" class="About-Image" />
-      </div>
-      <h3>Full-Stack javascript Developer Graduate at Northcoders, I have almost reached one year's experience working
+  <div class="row">
+    <div class="col-5">
+    <img src="Images/me.png" class="rounded mx-auto img-fluid" />
+     <button type="button">Blog</button>
+     <button type="button">Click Me!</button>
+    </div>
+
+    <div class="col-7">
+      <p>Full-Stack Web Developer Graduate at Northcoders, I have almost reached one year's experience working
         with javascript and have become incredibly confident with the language creating several games and websites,
-        currently seeking a career in software development particularly in the field of HTML canvas games. </h3>
+        currently seeking a career in software development particularly in the field of HTML canvas games. </p>
+    </div>
+
+
 
     </div>
   </div>

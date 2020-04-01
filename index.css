@@ -1,373 +1,52 @@
 
-@font-face {
-    font-family: 'ket';
-    src: url('Fonts/ketch___-webfont.woff2') format('woff2'),
-         url('Fonts/ketch___-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+:root {
+  --gradient: linear-gradient(90deg, #ee6352, purple, #ee6352);
 
-.link-cont{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    list-style-type: none;
-     margin: 0;
-    padding: 0;
-    width: 40%;
-    overflow: hidden;
-    background-color: rgb(0, 0, 0);
-    background-size: cover;
-    border-radius: 20px;
-    border: 0.3rem;
-    border-style:outset;
-    border-color: goldenrod;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 5px 5px;
-  text-decoration: none;
-  margin: 0.5rem;
-  font-family: 'ket';
-}
-
-li a:hover {
-  background-color: rgb(71, 71, 71);
 }
 
 body {
-    background-image:linear-gradient(rgb(93, 6, 6),black);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-left: 12rem;
-    padding-right: 12rem;
-}
-
-h1 {
-    margin: 0.5rem;
-    font-family: 'ket';
-}  
-
-h2 {
-    margin: 0.5rem;
-    font-family: 'ket';
-}
-
-h3 {
-    margin: 0.5rem;
-    font-family: 'ket';
-}
-
-p {
-    margin: 0.5rem;
-    padding: 1rem;
-    font-family: 'ket';
-}
-
-.Intro {
-    margin: 1.5rem;
-}
-
-.Intro-Text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    padding: 2px;
-    font-size: 1.8rem;
-    border-radius: 20px;
-    border: 0.3rem;
-    border-style:outset;
-    border-color: goldenrod;
-    background-image:linear-gradient(to top left,rgb(93, 6, 6),black);
-    text-align: center;
-}
-
-.Intro-Logos {
-    width:30%;
-}
-
-.Banner-Image {
-    width: 40%;
-    margin: 1rem;
-}
-
-.Banner-Image-2 {
-    width: 25%;
-    margin: 0.5rem;
-}
-
-
-.links {
-    width: 100%;
-    max-width: 60%;
-    margin: 0.5rem;
-}
-
-.LinkList {
-    width: 30%;
+  background-size: 300%;
+  background-image: var(--gradient);
+  animation: bg-animation 25s infinite;
 }
 
 canvas {
-    width: 100%;
-    margin: 0rem;
-  }
-
-.infopic {
-    width: 100%;
-    max-width: 65%;
-    border: 3%;
-    margin: 2%;
-    border-style:solid;
-    border-color: black;
+  width: 100%;
+  margin-top: 1rem;
 }
 
-.infopic2 {
-    width: 100%;
-    max-width: 20%;
-    border: 0.2rem;
-    margin: 2%;
+p {
+  margin:1rem;
 }
 
-.infopicNC {
-    width: 100%;
-    max-width: 75%;
-    border: 0.3rem;
-    margin: 2%;
-    border-style:solid;
-    border-color: rgb(192, 21, 21);
+.title {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 3rem;
+  color: #ee6352;
+  line-height: .8;
+  margin: 0;
 }
 
-.Front-End-Div {
-    min-width: 100%;
+@keyframes bg-animation {
+  0% {background-position: left}
+  50% {background-position: right}
+  100% {background-position: left}
 }
 
-.Front-End-Banner {
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    border: 0.3rem;
-    border-style:outset;
-    border-color: goldenrod;
-    background-image: url("Images/books.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 1rem;
+.about {
+  margin: 1rem;
+  color:black;
+   padding: 1em;
+  background: white;
+  box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
 }
 
-.Front-End-Banner-Title {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem;  
-}
-
-.Scroll-Banner-Title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("Images/Scrolltop2.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin: 1rem;
-}
-
-.Scroll-Banner-Image {
-    margin: 0;
-    width: 25%;
-    max-width: 50%;
-}
-
-.Scroll-Banner-Image2 {
-    margin: 0;
-    width: 35%;
-    max-width: 50%;
-}
-
-.ScrollBot {
-    width: 100%;
-}
-
-.ScrollDiv {
-    display: flex;
-    flex-direction: row;
-    display: none; 
-     align-items: center;
-    justify-content: center; 
-    text-align: center;
-}
-
-.Scroll-Desc {
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    background-image: url("Images/scrollbody.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 78%;
-    font-size: 1.8rem;
-    text-align: center;
-    margin-top: -1rem;
-}
-
-.Scroll-Desc-Inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.waxLink {
+  .LinkList {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     width: 40%;
-}
-
-.About {
-    margin: 1.5rem;
-}
-
-.About-Text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    padding: 2px;
-    font-size: 1.8rem;
-    border-radius: 20px;
-    border: 0.3rem;
-    border-style:outset;
-    border-color: goldenrod;
-    background-image:linear-gradient(to top right,rgb(93, 6, 6),black);
-    text-align: center;
-}
-
-.About-Image {
-    width: 100%;
-    max-width: 60%;
-    border-radius: 50px;
-    border: 0.3rem;
-    border-style:outset;
-    border-color: goldenrod;
-}
-
-
-  @media screen and (max-width: 600px){
-    body {
-        padding-left: 0.2rem;
-        padding-right: 0.2rem;
-    }
-
-    /* canvas {
-        display: none;
-      } */
-
-    .Scroll-Banner-Title {
-        width: 100%;
-        margin-left: 1%;
-      }
-
-    .Banner-Image {
-        width: 60%;
-        margin:2%;
-    }
-
-    .Banner-Image-2 {
-        width: 50%;
-        margin:2%;
-    }
-
-    .waxLink {
-        width: 30%;
-    }
-
-    .LinkList {  
-        width: 100%;
-    }
-
-   h3 {
-        font-size: 1rem;
-    }
-
-    .Intro-Logos2 {
-        max-width: 60%;
-        margin: 0rem;
-    }
-    
-    .Scroll-Desc {
-        font-size: 1rem;
-    }
-
-    .infopic {
-        width: 100%;
-    }
-
-    .infopic2 {
-        width: 100%;
-    }
-
-    .infopicNC {
-        width: 100%;
-    } 
-
-    .Ant-Desc-Inner {
-        flex-direction: column;
-    }
-   
-    p {
-        margin: 0.5rem;
-        padding: 0.5rem;
-    }
-}
-
-    .About-Text {
-        margin: 0%;
-  }
-
-  @media only screen and (max-width: 800px) and (min-width:601px){ 
-
-    .LinkList {  
-        width: 60%;
-    }
-
-    .Intro-Text {
-        font-size: 1.2rem;
-
-    }
-
-    .Intro-Logos2 {
-        max-width: 40%;
-        margin: 0rem;
-    }
-   
-    .Scroll-Desc {
-        font-size: 1.8rem;
-        margin: 0.5rem;
-        padding: 0.5rem;
-    }
-
-    .Ant-Desc-Inner {
-        flex-direction: column;
-    }
-
-    body {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-
-    h3 {
-        font-size: 2rem;
-    }
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
   }
