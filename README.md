@@ -1,4 +1,6 @@
-# Mathew-Jackson-Portfolio
-A portfolio that shows my work in an interesting and innovative way using phaser.js,css and html 
+# Mathew-Jackson-Profile-Page
 
-Deployed : www.mathewjacksondev.com
+My profile page housing Portfolio and blog posts.
+
+Deployed :
+https://chompski.github.io/MathewJacksonGithub/
