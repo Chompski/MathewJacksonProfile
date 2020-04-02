@@ -27,7 +27,7 @@ p {
   color: #ee6352;
   line-height: .8;
   margin: 1rem;
-  background: -webkit-linear-gradient(160deg, #500a58, #c35acf, #e4c4e8, #ecbfbf, #ab3535, #5b0505);
+  background: -webkit-linear-gradient(160deg, #500a58, #c35acf,  #ab3535, #5b0505);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
