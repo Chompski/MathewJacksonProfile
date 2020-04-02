@@ -52,11 +52,25 @@ p {
     /* box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75); */
   }
 
+  .LinkList:hover{
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+  }
+
   .about {
+    margin-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
-  .nav {
-  
+  .btn-light {
+    max-width: 10rem;
+    font-weight: bold;
+    border: 5px solid white;
+    text-decoration: none;
+  }
+
+  .btn-light:hover{
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
   }
