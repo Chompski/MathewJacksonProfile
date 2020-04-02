@@ -48,7 +48,8 @@ p {
   .LinkList {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    width: 40%;
+    width: 3.5rem;
+
     /* box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75); */
   }
 
@@ -57,20 +58,21 @@ p {
   }
 
   .about {
-    margin-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
   .btn-light {
-    max-width: 10rem;
+    margin: 1rem;
+    /* max-width: 10rem; */
     font-weight: bold;
     border: 5px solid white;
     text-decoration: none;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
   }
 
   .btn-light:hover{
     font-weight: bold;
     text-decoration: none;
-    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
   }
