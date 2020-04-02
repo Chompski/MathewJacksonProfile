@@ -36,8 +36,9 @@ p {
   100% {background-position: left}
 }
 
-.about {
-  margin: 1rem;
+.head {
+  margin-top:1rem;
+  margin-bottom:1rem;
   color:black;
    padding: 1em;
   background: white;
@@ -48,5 +49,14 @@ p {
     margin-top: 1rem;
     margin-bottom: 1rem;
     width: 40%;
-    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+    /* box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75); */
+  }
+
+  .about {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .nav {
+  
   }
