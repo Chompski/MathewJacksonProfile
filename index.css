@@ -12,8 +12,8 @@ body {
 
 canvas {
   width: 100%;
-  /* max-width: 20rem; */
-  /* margin-top: 1rem; */
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 p {
@@ -23,10 +23,13 @@ p {
 .title {
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #ee6352;
   line-height: .8;
   margin: 1rem;
+ background: -webkit-linear-gradient(360deg, #500a58, #c35acf, #e4c4e8, #ecbfbf, #ab3535, #5b0505);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
 }
 
 @keyframes bg-animation {
@@ -63,6 +66,13 @@ p {
     padding-right: 1rem;
   }
 
+  .AboutText {
+    color: black;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin: 1rem;
+  }
+
   .btn-light {
     margin: 1rem;
     color: #ee6352;
@@ -72,7 +82,6 @@ p {
 
   .btn-light:hover{
     font-weight: bold;
-
     text-decoration: none;
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
   }
