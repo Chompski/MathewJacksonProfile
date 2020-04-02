@@ -11,9 +11,9 @@ body {
 }
 
 canvas {
+  max-width: 40rem;
   width: 100%;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  padding-right: 1rem;
 }
 
 p {
@@ -23,7 +23,7 @@ p {
 .title {
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 3.5rem;
+  font-size: 4rem;
   color: #ee6352;
   line-height: .8;
   margin: 1rem;
@@ -39,10 +39,10 @@ p {
 }
 
 .head {
-  margin-top:1rem;
+  margin-top:5rem;
   margin-bottom:1rem;
   color:black;
-   padding: 1em;
+  padding: 1rem;
   background: white;
   box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
 }
