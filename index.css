@@ -5,7 +5,7 @@
 }
 
 body {
-  background-size: 300%;
+  background-size: 200%;
   background-image: var(--gradient);
   animation: bg-animation 60s infinite;
 }
@@ -21,9 +21,10 @@ p {
 }
 
 .title {
+  font-family: 'Do Hyeon', sans-serif;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 4rem;
+  font-size: 5rem;
   color: #ee6352;
   line-height: .8;
   margin: 1rem;
@@ -68,6 +69,7 @@ p {
   }
 
   .AboutText {
+    font-family: 'Do Hyeon', sans-serif;
     color: black;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -75,9 +77,8 @@ p {
   }
 
   .btn-light {
-    /* font-family: fantasy; */
+    font-family: 'Do Hyeon', sans-serif;
     margin: 1rem;
-    font-weight: bold;
     box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
   }
 
