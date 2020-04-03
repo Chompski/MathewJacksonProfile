@@ -53,16 +53,15 @@ p {
 }
 
   .LinkList {
-    margin-top: 5rem;
-    margin-bottom: 1rem;
-    width: 3rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+   width: 5rem;
+   color: white;
+
   }
 
   .LinkList:hover{
 
   }
+
 
   .about {
     padding-left: 2rem;
