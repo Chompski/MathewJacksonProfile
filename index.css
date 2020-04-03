@@ -55,11 +55,10 @@ p {
   .LinkList {
    width: 5rem;
    color: white;
-
   }
 
   .LinkList:hover{
-
+    color: black;
   }
 
 
