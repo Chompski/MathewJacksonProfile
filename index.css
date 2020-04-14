@@ -48,6 +48,14 @@ p {
   box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
 }
 
+.blogPort {
+  margin-bottom:1rem;
+  color:black;
+  padding: 1rem;
+  background: white;
+  box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+}
+
 .headimage {
   margin-bottom: 1rem;
   border-radius: 50%;
