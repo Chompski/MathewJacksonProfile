@@ -1,27 +1,19 @@
 let blog = [{
-  mainID: "blog1",
-  innerID: "inner1",
-  titleID: "title1",
-  dateID: "date1",
-  contentID: "content1",
-  imageID: "image1",
   title: "object title",
   date: "10/11/2044",
   content: "blog object content",
   imageSRC: "Images/antdentifierex.png",
 }, {
-  mainID: "blog2",
-  innerID: "inner2",
-  titleID: "title2",
-  dateID: "date2",
-  contentID: "content2",
-  imageID: "image2",
   title: "object title 2",
   date: "10/11/2044 2",
   content: "blog object content 2",
   imageSRC: "Images/antdentifierex.png",
+}, {
+  title: "object title 3",
+  date: "10/11/2044 3",
+  content: "blog object content 3",
+  imageSRC: "Images/antdentifierex.png",
 }];
-
 
 function createBlog() {
 
@@ -77,7 +69,25 @@ function createBlog() {
 
     var image = document.createElement("IMG");
     image.setAttribute("src", blog[i].imageSRC);
-    image.setAttribute("class", "mx-auto d-block img-fluid");
+    image.setAttribute("class", "mx-auto d-block img-fluid blogImage");
     document.getElementById("imageID" + i).appendChild(image);
+  }
+}
+
+function hide(className) {
+  let block = document.getElementsByClassName(className);
+
+  if (block[0] === undefined) {
+    createBlog();
+  } else {
+    if (block[0].hidden === false) {
+      for (var i = 0; i < block.length; i++) {
+        block[i].hidden = true;
+      }
+
+    } else
+      for (var i = 0; i < block.length; i++) {
+        block[i].hidden = false;
+      }
   }
 }
